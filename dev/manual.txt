@@ -1,0 +1,754 @@
+
+______
+
+ULTERIOR WARZONE
+instruction manual
+(v130619)
+
+
+______
+( DEMO v1.0 )
+
+______
+l
+
+
+Ulterior Warzone (c)2013 Violation Entertainment. All rights reserved.
+powered by RTS4DS Engine (c)2013 Sander Stolk. All rights reserved.
+
+
+______
+2
+( DEMO v0.9 )
+
+______
+:> INDEX
+3
+
+ 
+           1>. Introduction.
+            - a>. storyline.
+            - b>. factions.
+            - c>. characters.
+            - d>. diversity.
+           2>. Game Access.
+            - a>. menus & options.
+            - b>. regions & briefings.
+            - c>. scenarios & objectives.
+           3>. Gameplay.
+            - a>. elements.
+            - b>. the playscreen.
+            - c>. the infoscreen.
+            - d>. mining & spending.
+           4>. Functions In-Depth.
+            - a>. common functions.
+            - b>. structure functions.
+            - c>. unit functions.
+            - d>. infoscreen functions.
+
+
+      5>. Structures & Units.
+       - a>. all structure info.
+       - b>. all unit info.
+       - c>. all structure stats.
+       - d>. all unit stats.
+       - e>. the techtree
+      6>. Tactics & Strategies.
+       - a>. building structures & base-layout.
+       - b>. terrain factors.
+       - c>. building & queuing.
+       - d>. tips for successful defensive.
+       - e>. tips for successful offensive.
+       - f>. tips for unit-orientated missions.
+      7>. Technical.
+       - a>. FAQ.
+       - b>. glossary.
+       - c>. hardware.
+       - d>. credits & thanks.
+       - e>. disclaimers & legal.
+
+
+______
+:1> INTRODUCTION - (a)
+4
+
+
+
+
+    - 1a>. storyline.
+
+To lay to rest that we are alone, even in our own neighbourhood of our galaxy, a science vessel resides in the ulterior of Daljabah.  A craft from another system, indeed the very cause of the valley's formation.  For many hundred millennia it had been set in the Earth, unknown of by our species, until one day a young scientist discovers this buried object.  Enemy forces will risk everything to be the first to study, use and own the radical alien technology, with unimaginable consequences.  
+
+The United Coalition's "Purge" operation is now active and requires a new commander.  It has discovered an unidentified base located in the desert that is suspected to be an enemy paramilitary cell, an underling of the menacing front known as Parallax.  Early intelligence indicates utilisation of technology more advanced than expected, and recommends immediate intervention.
+
+It's up to you to command your force to victory and form the fate of your entire
+species forever.
+
+
+______
+:1> INTRODUCTION - (b)
+5
+
+ - 1b>. factions.
+
+Purge-UC:-
+  - initially they force people to believe they are the only benevolent world power, of honour and valour and always for the benefit of their own first-world societies in order to eventually and theoretically benefit others.  Yet underneath, attribute their civil progress to the exploitation of not only those very people, but others in other nations and societies, and continually their enforced perception of equal advantages are proven lies, employing pseudodemocratic confusion and propaganda through control over mass-media, ultimately being a benefit to only an elite minority founded on obsolete religious beliefs.
+
+Parallax:-
+  - on the surface seem to dominate their regions by force like a cruel dictatorship, extreme beliefs governing their societies with capital punishment, seemingly luring criminals to be used as a resource, going as far as harvesting biological components from those found guilty of major violations, although overall allow their people freedom of responsibilities and a self-sustained morality, with true equal opportunities and political transparency for the innocent, where people can have a sufficient quality of life.  Parallax want to make their activities global to filter humanity.
+
+
+______
+:1> INTRODUCTION - (b)
+6
+
+ - 1b>. factions.
+
+Psyclone:-
+  - although not a political power, they have managed to become a powerful independent defensive military force within the poverty-stricken south-east wastelands of the neutral middle-territories, partially able to fend off the exploitive infestations of rogue UC and Parallax paramilitary counterparts, cautious not to lead these two other factions to war, but to protect the scattered settlements in the south-east.  Psyclone can attribute their power to AECE ancestry and the discovery of extraterrestrial technology, by pure chance, are solely responsible for the recent stability in the middle-territories preventing what is seen as an inevitable war.
+
+others:-
+  - the three waring factions are not the only military forces or settlements in these regions, the neutralities of the middle-territories are also present and can pose a threat, but under laws outlined by the International Tribunal must not be offensively engaged.
+
+
+
+
+______
+:1> INTRODUCTION - (d)
+l3
+
+- 1d>. diversity. Middle-Territories:- - dry arid canyons and deserts, home to nomadic neutral civilians. Biehnon:- - north-eastern verdant forests among the Parallax regions. Aetisha:- - hostile far-northern frozen icelands that are a neutral territory.
+
+
+______
+:1> INTRODUCTION - (d)
+l4
+
+- 1d>. diversity. Meteyin:- - mid-south-western swamplands considered partially middle-territory. Wequinn:- - far southern neutral volcanic mountainous regions mostly devoid of activity.
+
+
+______
+:1> INTRODUCTION - (d)
+l5
+
+- 1d>. diversity. Daljabah:- - underground temples and desert valleys where Psyclone and '72' reside. Metropolis:- - massive city regions home to majority of poverty stricken citizens under Coalition rule.
+
+
+______
+:1> INTRODUCTION - (d)
+l6
+
+- 1d>. diversity. Purge-UC tech:- - elegant and clean Coalition engineering powered by nuclear energy. Parallax tech:- - crude and menacing factories sometimes used as human slaughterhouses. Psyclone tech:- - modest with older technology efficiently powered from an underground source.
+
+
+______
+:2> GAME ACCESS - (a)
+l7
+
+- 2a>. menus & options. From the Main Menu you can access your settings, saved games and continue or begin a campaign, among other things. Like other menus of this type, you can use either D-Pad or touchscreen to change and activate your selection.
+
+Main Menu:- 'Continue' - this becomes available when a new game has been started, making it easy to rapidly pick up where the player left off. 'New Game' - for players to begin a new game, choosing this selection will take you to the Faction screen. (see pg.22) 'Load Game' - this is where players manage 3 real-time saves from games that have not finished, choosing this will take you to the Load menu. (see pg.18)
+
+'Multiplayer' - players can engage in 'Multicard' battles with another player, choosing this will take you to the Multiplayer menu. (see pg.19) 'Settings' - additional options for players to customise the game are available, choosing this will take you to the Settings menu. (see pg.21) 'Game Guide', 'Soundroom', 'Gold Awards'
+
+
+______
+:2> GAME ACCESS - (a)
+l8
+
+- 2a>. menus & options. Load menu:- The Load Menu has 3 slots available where your real-time save games are stored, identified by a picture of the in-game radar infoscreen. Simply select with the D-pad or touch the slot to see information regarding the faction, level, duration, date and time. Pressing the A button or touching the slot again will load that save. Save menu:- The Save Menu is accessed from the Pause Menu (see pg.23) and contains 3 slots the same as the Load Menu. Simply select with the D-pad or touch the slot to continue to a second confirmation screen, which will display information regarding the radar, faction, level, duration, date and time, along with information regarding the existing save file you wish to overwrite. To confirm your save, touch the save button on the bottom-right corner of the touchscreen. (note: save files cannot be deleted and must be overwritten by a new save.)
+
+
+______
+:2> GAME ACCESS - (a)
+l9
+
+- 2a>. menus & options. Multiplayer:- The game's Multiplayer mode supports 2-player standard deathmatch using 'Multicard' which requires each player to use their own cartridge. You must first choose whether you will Host a match or Join a match.
+
+Join:- The join menu will list any players within local Wifi range that have set their match settings, are hosting a match and awaiting an opponent. Use the D-pad or touch the host selection to join your opponent in a confirmation screen lobby. This lobby will display the game settings and information regarding the map and environment. When the host confirms an opponent has joined, they will begin the match.
+
+
+______
+:2> GAME ACCESS - (a)
+20
+
+- 2a>. menus & options. Host:- The host menu begins with a menu used to adjust your game settings. These settings include options to select the map, adjust the environment graphics for the map, adjust the Resources multiplier and which faction players will be assigned to. Once these settings have been adjusted and confirmed, the next menu will wait for you to greet your opponent in a lobby screen, which will display the game settings and information regarding the map and environment. Once a player has joined, a confirmation button will appear at the bottom-right corner of the touchscreen which will commence the match.
+
+Statistics:- Like singleplayer, a Statistics menu will appear when winning or losing a match in multiplayer. This screen shows information such as matches won and lost, enemy units and structures destroyed, friendly units and structures lost, and match duration time. A replay option will be available for players to keep a score while playing against each other.
+
+
+______
+:2> GAME ACCESS - (a)
+2l
+
+- 2a>. menus & options. Settings:- 'Controls' - this option allows you to select between right-handed and left-handed control schemes, in which the D-pad and ABXY buttons are swapped. 'Screen Swap' - this option allows you to select between 'Press' and 'Hold'. Press means you only need to press the L or R shoulder button once to swap playscreen and infoscreen, while Hold means these screens are swapped only when the buttons are held and will revert when released.
+
+'Game Speed' - this option allows you to select between the 3 game speeds available, 'Normal', 'Slower' and 'Slowest', effectively a measure of difficulty. 'Music Volume' - this option allows you to control the volume of the music, ranging from equal to sound effects down to muted. 'Subtitles' - this option allows you to 'Enable' or 'Disable' the subtitles shown in cinematics. 'Audio' - this option allows you to change between 'Mono' or 'Stereo' audio output. The 'Back' button can be pressed to revert back to the Main menu.
+
+
+______
+:2> GAME ACCESS - (a)
+22
+
+- 2a>. menus & options. Faction screen:- In this screen you choose which Faction you wish to play as. These campaigns must be played consecutively in order to unlock the next. When you begin a new game, you must choose the first Faction and complete its campaign in order for the second Faction to become unlocked and available. Choosing a Faction on this screen will take you directly into that Faction's campaign and you will continue to the Regions screen (see pg.25) and Briefing for the first level. There are 9 levels in each campaign and some levels contain multiple scenarios (see pg.26) which means if you play consecutively, not every scenario in the game will have been played. Choosing a different faction means assuming a different role and facing different set of objectives as a virtual tactician, relating to their beliefs and politics and facing the other factions as enemies.
+
+
+______
+:2> GAME ACCESS - (a)
+23
+
+- 2a>. menus & options. In-game Pause menu:- 'Continue' - this option takes you straight back to the action. 'Save Game' - this is where players can save their current progress in real-time, this option takes you to the Save menu. (see pg.18) 'Gameinfo' - this is where players can access more detailed information about gameplay, objectives, structures and units, this option takes you into the Gameinfo screen.(see pg.24) 'Music Volume' - this option allows you to control the volume of the music, ranging from equal to sound effects down to muted. 'Exit Mission' - this option will quit the current scenario and return directly back the Main menu.
+
+
+______
+:2> GAME ACCESS - (a)
+24
+
+- 2a>. menus & options. Gameinfo & Game Guide:- 'Mission Objectives' - this option will display the Objectives screen for the current scenario which will detail each objective. 'Info Structures' - this option will display an interactive screen of every structure available to build and then displays detailed specific information about it. 'Info Units' - this option will display an interactive screen of every unit available to build and then displays detailed specific information about it. 'Techtree Structures' - this option displays a visualisation of the current available techtree for structures, explaining how each structure is related to and dependent upon other structures in a hierarchy. 'Techtree Units' - this option displays a visualisation of the current techtree for units, explaining how each unit is dependent on a particular structure and how structures unlock new possible units. Game Guide:- This option is available from both the Settings menu and the Gameinfo menu. This option will display a continuous set of screens that will help to explain many aspects of the game including Infoscreen functions (see pg.32-38), structure and unit functions (see pg.29-31) and strategies and techniques for improving your performance.
+
+
+______
+:2> GAME ACCESS - (b)
+25
+
+- 2b>. regions & briefings. Warzone Regions screen:- In this screen you will see a map of the entire warzone as split into its different regions. Each level consists of one or more available scenarios divided over these regions. You can select only one region to battle within and complete in order to progress, although if you can't finish a difficult scenario you can select another region. A region can contain different scenarios and maps, and may be revisited during all campaigns throughout the game. For the first level of the game you will only be able to access 1 region. This screen also displays the current level and description, along with the objectives for the current level, which are the same for every scenario when multiple scenarios are present in the warzone. A display above this will show some images relating to the environment, scenario and objectives. Simply press the region on the touchscreen map or press A to continue onto the briefings and then into the game.
+
+
+______
+:2> GAME ACCESS - (c)
+26
+
+- 2c>. scenarios & objectives. Scenarios:- Throughout the game the type of scenarios and their objectives will vary, along with the degree of complexity and difficulty as your abilities and technology evolve. The 2 main types of scenarios are 'base-oriented' and 'unit-oriented'. For base-oriented scenarios you will be required to focus your attention on full-scale warfare tactics by constructing and expanding a base composed of structures. The typical objectives for this type of scenario are unit production and defending against oncoming attacks. For unit-oriented scenarios you will be initially given a certain amount of units to focus your attention on the intimate gameplay of controlling units and issuing orders. The typical objectives for this type of scenario are infiltration and navigating more complicated types of maps. Objectives:- Throughout the game each different scenario can have a combination of objectives that need to be fulfilled in order to win a battle and continue on to the next level. These include survival and defending units, gathering resources for credits, navigating a map to locate vital technology, or completely annihilating the enemy. These objectives are mentioned on the Warzone Regions screen, but displayed in more detail just before a scenario is launched, available from the in-game Pause menu via the Gameinfo option (see pg.24) and also from a 'quick-help' [!] icon located on the Infoscreen. (see pg.32)
+
+Statistics:- When you have successfully completed a mission you will be greeted with a Statistics screen which will inform you of your performance in the previously played scenario.
+
+
+______
+:3> GAMEPLAY - (a)
+27
+
+- 3a>. elements. The gameplay orientates around the relation between different elements, such as structure and unit commands, resource collecting, defense and offense, playscreen and infoscreen commands, and the environments and scenarios concerning your current objectives. In a typical deathmatch scenario, your aim is to first construct a base from which units can be produced, introducing greater abilities as your base expands and evolves up through the Techtree. For this to happen, the base must have the capability of mining resources and processing them on site into credits, in order to afford purchasing every necessary unit and structure and assigning them for production in the Build-Queue. This is all done by alternating between the different screens in the game and every function they have to offer. You must both defend your base from oncoming enemy attacks by using your structures and units, and navigate the map while creating a force of units to launch attacks against the enemy, ultimately taking control of the enemy base and fulfilling the objective of that scenario. By building the necessary structures and units you will have access to everything needed to successfully complete your objectives and progress through the game.
+
+
+______
+:3> GAMEPLAY - (a)
+28
+
+- 3a>. elements. During play, the game is controlled using 2 main screens, the Playscreen and the Infoscreen, which can appear on either screen at any time, and is alternated using your L or R shoulder buttons, or by touching the swap-screen button located on both screens at all times. To access the main functions of either screen, it must be located and interacted with on the touchscreen, the bottom screen on your NintendoDS console.
+
+INFOSCREEN
+PLAYSCREEN
+PLAYSCREEN
+INFOSCREEN
+
+L
+X
+R
+
+
+______
+:3> GAMEPLAY - (b)
+29
+
+- 3b>. the playscreen. Playscreen:- This is where all of the action takes place. The Playscreen shows the actual map, all units and structures and is used for moving units and issuing orders to attack or defend, and organising your base and placing structures. The Playscreen can be interacted with in 2 ways: by touching part of the map, a unit or structure, and by accessing specific functions of these using available buttons on the Action Bar at the top of the Playscreen. While the Playscreen is on either screen, navigation can be controlled by using the D-pad.
+
+
+______
+:3> GAMEPLAY - (b)
+30
+
+- 3b>. the playscreen. To select a unit or structure, you can touch it directly, or to select a group of units you can touch and drag a selection box. Simply touch down at a corner point and hold it on the touchscreen, then drag your stylus across the touchscreen diagonally to create the box, release and all of your units within that box will be selected. When a unit or structure is selected, a box will appear with a coloured line. This line indicates damage, with green representing full armour and red representing severely damaged. The Action Bar at the top of the Playscreen will also become occupied with available functions relating to your selection. The Playscreen also has many automatic and default functions regarding how structures are placed and how units behave. When placing a structure, you will see red or green tiles indicating if that particular structure can be placed on those particular blocks of concrete foundation. Touching that location on the Playscreen again will automatically place that structure, enabling you to construct your base more efficiently. Triple-tapping an empty location on the Playscreen will automatically return the Infoscreen to the Radar. When controlling units, touching an unoccupied part of the map will automatically force any selected units to move to that location. Double-tapping a unit or structure will automatically display specific information about it on the Infoscreen. When touching any enemy units or structures while your units are selected, those selected units will automatically move to and engage the enemy at that touchscreen location on the Playscreen. When dragging a selection box around no units or structures on the Playscreen, all current selections will be automatically cancelled, clearing the way for any new functions or commands. All of these automated functions are vital for retaining focus and control during intense warfare on the battlefield, giving you the upper-hand by allowing both your offensives and defensives to be far more efficient.
+
+
+______
+:3> GAMEPLAY - (b)
+3l
+
+- 3b>. the playscreen. Action Bar:- The Action Bar will allow you to access different functions depending on whether you have selected a unit or a structure, and what type of unit or structure you have selected. These functions can also be issued to groups of units to synchronise your tactics. Some functions are common for both units and structures, such as 'Screen-Swap', 'Cancel' and 'Place', some are only for structures such as 'Repair', 'Rally', 'Primary', and 'Destruct', while the others 'Attack', 'Move', 'Guard', 'Retreat', 'Focus' and 'Heal' are for units. A quick touch of these buttons will access their function for use on the Playscreen. Holding your stylus on the touchscreen will display the function name on the Action Bar for your convenience.
+
+ATTACK      MOVE      GUARD         SWAP        RETREAT     FOCUS     CANCEL
+
+ REPAIR   PRIMARY   RALLY         SWAP                       DESTRUCT   CANCEL
+
+PLACE                                              HEAL
+
+
+______
+:3> GAMEPLAY - (c)
+32
+
+- 3c>. the infoscreen. The Infoscreen is by far the most complex, consisting of several different types of screens, each offering different information and with different functions. The Icon-Stacks are always present, while the middle area can be changed between Radar, Descriptions, Build-Queue and Hotkeys screens. While the Radar display occupies the complete middle area of the Infoscreen, the other screens include a Statistics-Box area which calculates duration of the game time, your progress in the current scenario, maximum unit supply limit, and a casualty report. There are other buttons and displays present, such as a credits counter at the bottom-left and a power supply indicator to the bottom-right, with buttons to access the Build-Queue [BQ] and Hotkeys [HK] screens in the middle, along with a Radar button and Quick-Info [ ! ] button to easily access details about the current scenario objectives. Being familiar with the layout and functionality of everything the Infoscreen has to offer is crucial in becoming an efficient virtual military tactician.
+
+   |
+BUILD-QUEUE
+
+         |
+HOTKEYS
+
+          |
+POWER-METER
+
+      |
+CREDITS
+
+MINUS/PLUS
+  |   |
+
+QUICK-HELP
+      |-
+      |
+      †
+
+
+______
+:3> GAMEPLAY - (c)
+33
+
+- 3c>. the infoscreen. Icon-Stack:- There are 2 different Icon-Stacks on the Infoscreen, productive and non-productive. The left-hand side displays a stack of icons relating to fundamental productive structures, which are structures that are responsible for building units and other structures. The right-hand side displays a different stack of icons which the left-hand side is responsible for and which includes all units. Touching one of these icons on the left-hand Icon-Stack will give you access to a new stack on the right-hand Icon-Stack. Your 'Base Headquarters' structure is the only structure that is responsible for building other structures, however it builds no units. All other icons that appear on the left-hand side are unit-producing structures, and all other icons that appear on the right-hand side will be units available to be produced by that structure. Touching one of these icons on the right-hand Icon-Stack will automatically show the Description screen for that specific selection. It's important to understand the Techtree (see pg.63) behind how these Icon-Stacks are ordered so that you can quickly find what you need to construct, when you need to construct it.
+
+
+______
+:3> GAMEPLAY - (c)
+34
+
+
+  - 3c>. the infoscreen.
+
+Radar:-
+Usually you will need to keep an eye on your Radar display as it's the only efficient way of anticipating incoming offensives from the enemy.  This ability requires you have a Radar structure and enough power to activate it.  You will also only be able to view parts of the map that you have already explored, otherwise it will be covered in 'shroud', so it's important to get scouting units out into the battlefield early to have maximum overview of the enemy.  The Radar screen is also extremely useful for navigating the map, not only by giving awareness of the current map viewpoint in relation to the entire warzone, but by allowing you to scroll the Playscreen by touching your stylus to and dragging along the white viewpoint-selection box on the Infoscreen Radar display on the touchscreen.  You can also use the radar to issue attack and move orders, by first preparing your selection and function on the Action Bar on the Playscreen, then swapping screens and accessing the Radar to execute your order.
+
+
+______
+:3> GAMEPLAY - (c)
+35
+
+- 3c>. the infoscreen. Description:- This screen will contain important information to know about a specific unit or structure and this is also where you will have the ability to assign them into the build-queue for production. For structures, a second icon will appear under the icon of that structure which signifies the area that structure will occupy. The same formation of concrete foundation is required for that structure to be built upon and become active in the techtree and then available to build. To the right is text explaining which unit or structure it is, how much it costs, basic statistics about armour, attack strength, queue-time and unique aspects. Under this are the minus/plus [-]/[+] buttons to the left that will add or subtract this unit or structure to or from the Build-Queue, information regarding the selection in the queue in the middle, and a Quick-Info [!] button to the right that will automatically pause the game and display a full screen of detailed information from the Game Guide about that specific unit or structure.
+
+
+______
+:3> GAMEPLAY - (c)
+36
+
+- 3c>. the infoscreen. Build-Queue:- Another screen to keep an eye on, the Build-Queue is where all of your purchased units and structures assigned for production are managed. Initially when first added to the queue, the icon will appear to be darkened and obscured, representing that the unit or structure is still under production and not yet available. As production progresses, the icon will become clearer from left to right, and finally be available for you to use. The queue is split in 2 for structures and units, with 5 slots available for structures and 10 slots available for units, and these will all be produced independent of the type of structure or the structure they are produced by. As structures finish being produced they will remain in the queue until you are ready to place them onto the map, so when you touch the flashing icon it will automatically take you to the Playscreen and into the structure-placing mode. As units finish being produced they will automatically appear from that structure on the Playscreen, move to the set rally point (see pg.31&41) and assume 'guard' behaviour. In conjunction with other preparations and arrangements, the Build-Queue can become an easy and fluent way of operating both defensive and offensive military tactics.
+
+
+______
+:3> GAMEPLAY - (c)
+37
+
+- 3c>. the infoscreen. Hotkeys:- Once important structures and units are present in the scenario, the Hotkeys function becomes a vital tool for managing your base and forces rapidly and efficiently, especially in the confusion of heated combat. There are a total of 8 Hotkeys available, 4 standard in-game and 4 additional when using the Guitar Grip hardware (see pg.87). The standard Hotkeys are assigned to the ABXY buttons or D-pad, depending on your game settings and hardware, and additional Hotkeys are available when using the slot-2 Guitar Grip. The bottom Hotkey, which is the B button using default right-handed settings, is automatically assigned to your original Base Headquarters, if present in the map. By pressing your B button once, it will select your original Base Headquarters. By pressing B button twice, it will focus the Playscreen viewpoint on your original Base Headquarters. Not only can this be done for any unit or structure, but for any selection group assigned to any Hotkey, including a massive forces of units.
+
+
+______
+:3> GAMEPLAY - (c)
+38
+
+- 3c>. the infoscreen. Statistics-Box:- This is a small rectangle present on the Infoscreen under every display except for Radar. It contains information regarding match duration, kill counter for enemy units you have destroyed, death counter for friendly units you have lost, and the maximum unit supply limit. All of these statistics are important because they each relate to your performance and how you will be awarded for that particular mission. Match duration is measured in hours, minutes and seconds, and some missions will award you differently depending on how long it takes you to complete that mission, or allows you to track time if an objective relates to an event happening at a certain time in the mission. Kills and deaths, likewise, can sometimes relate to how you will be awarded for that particular mission. The maximum unit supply limit is simply to track how many units are available for you to produce in that mission. If you are unable to produce more units and there is no longer a 'plus' button [+] available, it's likely you have reached your maximum supply limit.
+
+
+______
+:3> GAMEPLAY - (d)
+39
+
+- 3d>. mining and spending. In order to purchase different structures and units, you first need the required amount of credits, and these can only be earned by mining and harvesting resources. These resources appear in the game as a high-contrast white area and can only be harvested by using a 'Feeder' unit which is automatically constructed by a 'Processing Plant' structure. In the first level of the game you will be required to construct and place a 'Processing Plant' structure, then use its 'Feeder' unit to harvest resource as stated in the objectives of that level. The 'Feeder' unit can be controlled like any offensive unit and target the resource on the map as if the resource were an enemy. The 'Feeder' will then harvest to its maximum capacity and automatically return to its 'Processing Plant' to dump the resource and allow the structure to generate credits back to your 'Base Headquarters' and these credits will then be available to spend. You must ensure your 'Processing Plants' and 'Feeders' always have clear access to and from both the resources on the map and themselves, as delays in 'Feeders' returning resource to 'Processing Plants' will result in delays generating credits and expanding your bases and forces.
+
+
+______
+:4> FUNCTIONS IN-DEPTH - (a)
+40
+
+- 4a>. common functions. - "Screen-Swap" - alternate the Playscreen and Infoscreen to and from the touchscreen. Both the Playscreen and Infoscreen have a button available to swap the screens and alternate which is present on the touchscreen for maximum functionality, offering control over different aspects of the game. - "Cancel" - no action, exit the Action Bar and deselect currently selected. In the middle of a complex series of commands you can perform in the game, it's important to make sure you can easily deselect and clear your current commands for any new ones to be performed. - "Place" - (for structures and 'Mobile HQ' unit) place at current location. Touching this icon while green confirmation squares are present on the Playscreen will place that particular structure at those green indicators, and the structure will then be present and active in the Techtree.
+
+
+______
+:4> FUNCTIONS IN-DEPTH - (b)
+4l
+
+- 4b>. structure functions. - "Repair" - maintenance operation on selected damaged structure in exchange for credits. Inevitably your structures will become damaged or perhaps begin preconstructed but damaged, so in exchange for credits this function will slowly increase the armour level for that structure until maximised. - "Destruct" - force selected structure to self-destruct and receive credits half its original value. Sometimes you may be low on credits or need to have a structure removed to change the layout of your base, so this function will force the selected structure to self-destruct. - "Primary" - force units to be produced from this particular structure. If you have more than one of any unit-producing structure for faster production, setting this function will force it to be the primary unit-producing structure. - "Rally" - force units produced by that structure to rally at this point on the Playscreen. To automatically have your forces arranged at a particular part of the map after production, this function will allow you to designate an exact coordinate on the map for units of the selected structure to rally.
+
+
+______
+:4> FUNCTIONS IN-DEPTH - (c)
+42
+
+- 4c>. unit functions. - "Attack" - force selected units to attack on next touch command on the Playscreen. This is the explicit Attack command which will ensure your units will engage with exactly what you want them to and exactly when you want them to, regardless of what is happening on the battlefield. - "Move" - force selected units to move on next touch command on the Playscreen. This is the explicit Move command which will force your units to move to the exact location you want them to, regardless of what is happening on the battlefield, ensuring units aren't distracted and dispersed. - "Guard" - force selected units to stop and attack any enemies within range. This function will force all selected units to fortify their position and engage evenly with all enemy units within their range, essential for quickly regaining control over your units defensively or offensively. - "Retreat" - force selected units to ignore enemies and retreat back to base. Sometimes it's better to retreat from warfare and save your remaining forces, especially if that's a condition of your objective, rather than lose every last unit trying, and this function makes that simple.
+
+
+______
+:4> FUNCTIONS IN-DEPTH - (c)
+43
+
+- 4c>. unit functions. - "Focus" - force the Playscreen to automatically remain locked onto the selected unit. When controlling a unit that needs a lot of complex movement, such as one used for scouting, this function will make it easy to track its location on the map and keep the Playscreen locked onto it. - "Heal" (for 'Medic' and 'Energy Orb' units) - force heal command on next touch command on the Playscreen. This is the explicit Heal command which will force your Medic or Energy Orb to Heal on the exact location you want them to and when you want, ensuring the units needing the most attention can survive.
+
+
+______
+:4> FUNCTIONS IN-DEPTH - (d)
+44
+
+- 4d>. infoscreen functions. - "(up)/(down)" - used to scroll the icons in an Icon-Stack up or down. These are small flashing buttons located at the bottom of an Icon-Stack which can be touched to scroll an Icon-Stack up or down. Holding one of these buttons will snap to the top or bottom of the stack. - "(minus)/(plus)" - used to subtract or add a unit or structure to the Build-Queue. These are small flashing buttons located on the Description screen of that particular unit or structure under its icon on that screen. Touching these buttons will purchase one or remove one from the Build-Queue. - "Quick-Help" - used to gain access to more detailed relevant information. These are small buttons located on the Infoscreen to access detailed descriptions about units, structures and the objectives for the current level, automatically pausing the game and displaying these screens.
+
+- "Radar" - used to bring the Radar display to the Infoscreen. This button is located to the bottom-right of the Infoscreen and will access the Radar display screen. When using other parts of the Infoscreen, the Radar display can not be present.
+
+
+______
+:4> FUNCTIONS IN-DEPTH - (d)
+45
+
+- 4d>. infoscreen functions. - "Build-Queue" - used to access the Build-Queue part of the Infoscreen. This small button is located to the bottom-middle of the Infoscreen on the right of the Screen-Swap button and will give you access to the Build-Queue screen. - "Hotkeys" - used to access the Hotkeys part of the Infoscreen. This small button is located to the bottom-middle of the Infoscreen on the left of the Screen-Swap button and will give you access to the Hotkeys screen. - "Hotkey" - used to perform enable or disable selections of a Hotkey. Hotkeys are circular buttons on the Hotkeys screen representing the 4 ABXY buttons of the console, each with 3 versions for 3 different functions, 'clear', 'save' and 'add'. (see pg.37)
+
+      |
+CREDITS
+
+            |
+POWER-METER
+
+
+______
+:5> STRUCTURES & UNITS - (a)
+46
+
+- 5a>. all structure info.
+
+: cost
+: armour
+: queue-time
+: power ( -/+)
+: attack (/10)
+: range (view/attack)
+: techtree-lock * (*relies on techtree hierarchy for availability)
+
+
+______
+:5> STRUCTURES & UNITS - (a)
+47
+
+- 5a>. all structure info. 'Base Headquarters' ( :640 | :1200 | :4 ) ...is the most important of your structures and must not become destroyed. The primary fundamental from which all other structures are built, losing this will nullify your techtree. 'Single Block' ( :8 | :3 | :2 ) ...of concrete is for setting foundation for structures to be built upon, especially for placement around rallying units. It's also essential foundation for turrets and Dummy Pegs. 'Quad Foundation' ( :30 | :3 | :5 ) ...of concrete is for setting foundation for structures to be built upon, especially for quick and easy placement intended for large structures to be placed upon. 'Dummy Peg' ( :6 | :10 | :4 | :1 ) ...can be used for further refining access of units around your base, but is weak unlike Wall Barrier so not a good substitute. It is also handy for expanding your possible build areas.
+
+
+______
+:5> STRUCTURES & UNITS - (a)
+48
+
+- 5a>. all structure info. 'Power Generator' ( :270 | :480 | :17 | :+180 | :3 ) ...is needed to supply your entire base with energy for all structures to function properly and for extension of their capabilities. It generates 180 power units, enough for a small base. 'Processing Plant' ( :480 | :820 | :27 | :-60 | :3 ) ...is used with and automatically produces a 'Feeder' unit to harvest resources and return to dock with this structure to dump and process it, resulting in credits to spend. 'Storage Silos' ( :180 | :270 | :12 | :-5 | :1 ) ...can hold an extra 500 resource units worth of credits which can assist in faster harvesting and unit-producing, minimising risk of wasting resource that cannot be processed. 'Radar' ( :420 | :270 | :22 | :-80 | :9 ) ...enables the radar display on the Infoscreen and has a large view range to give an expansive overview of your base. Losing this structure will disable radar display.
+
+
+______
+:5> STRUCTURES & UNITS - (a)
+49
+
+- 5a>. all structure info. 'Training Station' ( :320 | :370 | :42 | :-20 | :3 ) ...is used to recruit human soldiers and troopers quickly and cheaply for small-scale combat, scouting and cannon-fodder, specialising in cheap brute-force tactics. 'Tactics Station' ( :320 | :370 | :42 | :-30 | :3 ) ...can train human units that have special unique abilities, such as Snipers with extremely long range and Missile Troopers, the most dangerous human unit. 'Mech Kennel' ( :480 | :440 | :66 | :-40 | :3 ) ...provides a range of smaller lightweight mechanical units with abilities in speed and decent firepower, the most well-rounded of all unit-producing structures. 'Tank Complex' ( :640 | :620 | :72 | :-40 | :3 ) ...is used to construct heavy-duty and well armoured tanks, although slow-moving, can crush human units and typically have high-range and powerful explosive attacks.
+
+
+______
+:5> STRUCTURES & UNITS - (a)
+50
+
+- 5a>. all structure info. 'Chaingun Turret' ( :180 | :280 | :17 | :-10 | :3 | :6 ) ...is an important defensive structure for the exterior of your base used to deter enemy units, especially human units due to its higher rate of fire at close range. 'Missile Turret' ( :220 | :320 | :22 | :-20 | :5 | :7 ) ...is an important defensive structure for the interior of your base used to deter enemy units, especially mechanical units due to its powerful impact at higher range. 'Wall Barrier' ( :80 | :220 | :7 | :1 ) ...is used to block access to certain areas of the map, creating a frustrating inconvenience for enemy units and slowing down an oncoming attack. 'Trip Wire' ( :190 | :1 | :1 | :-3 | :10 | :1 ) ...is a unique defensive structure that is difficult to detect and is volatile to enemy units, exploding upon impact and instantly destroying anything nearby.
+
+
+______
+:5> STRUCTURES & UNITS - (a)
+5l
+
+- 5a>. all structure info. 'Technology Den' ( :720 | :720 | :37 | :-70 | :3 ) ...produces the most advanced units of all structures with extreme intelligence abilities and capable of devastating attacks, including high-speed and aerial units. 'Maintenance Garage' ( :1220 | :270 | :72 | :-180 | :1 ) ...repairs damaged mechanical units and send them back into battle good as new, although this structure itself is weak and cannot be repaired. 'Fatal Turret' ( :720 | :370 | :66 | :-60 | :9 | :9 ) ...is an advanced defensive structure used to deter enemy units, fatal to any human and deadly to mechanical units due to its extreme range high-speed energy attack.
+
+
+______
+:5> STRUCTURES & UNITS - (a)
+52
+
+- 5a>. all structure info. 'Research Facility' ( :720 | :320 | :127 | :-120 | :3 ) ...is the gateway to higher technology, combined with a 'Command Centre', will expand the entire Techtree to unlock all possible units from lesser productive structures. 'Command Centre' ( :1920 | :1920 | :172 | :+MAX. | :MAX. ) ...will expand your Techtree, fulfil all power and storage needs and provide the ability to expand maximum radar overview and multiple remote bases with the 'Mobile HQ' unit.
+
+
+______
+:5> STRUCTURES & UNITS - (b)
+53
+
+- 5a>. all unit info.
+
+: cost
+: armour
+: queue-time
+: speed (/10)
+: attack (/10)
+: range (view/attack)
+: techtree-lock * (*relies on techtree hierarchy for availability)
+
+
+______
+:5> STRUCTURES & UNITS - (b)
+54
+
+- 5b>. all unit info. 'Light Soldier' ( :70 | :60 | :17 | :5 | :1 | :03/02 ) ...is a human unit with light armour and weapons, but an advantage as cheap and quickly deployable, meaning that vast numbers can quickly be gathered as an effective offensive. 'Heavy Soldier' ( :90 | :120 | :23 | :5 | :1 | :03/02 ) ...is a human unit with moderate armour and light weapons, used to reinforce the cheapest units at the frontline conflicts as they can absorb more enemy attacks. 'Medic' ( :130 | :20 | :33 | :2 | +:10 | :01/01 ) ...is a slow-moving human unit with practically no armour that is capable of healing other injured human units with some limited minor personal medical attention. 'Machinegunner' ( :120 | :60 | :27 | :1 | :4 | :01/01 ) ...is a slow-moving human unit with weak armour that is capable of attacking enemy units and structures with a close-range rapid rate-of fire, extremely effective in numbers.
+
+
+______
+:5> STRUCTURES & UNITS - (b)
+55
+
+- 5b>. all unit info. 'Light Trooper' ( :120 | :80 | :19 | :5 | :2 | :04/02 ) ...is a more advanced human unit with moderate attack and light armour, balanced to quickly deploy a cheap offensive effective even in heated conflicts. 'Heavy Trooper' ( :140 | :140 | :23 | :5 | :2 | :05/03 ) ...is a more advanced human unit with moderate attack and armour, and is the most effective balanced human unit to quickly deploy as an offensive force. 'Sniper' ( :190 | :60 | :29 | :3 | :4 | :09/11 ) ...is a human unit with weak armour but extremely high range attack fatal to all human units and incredibly effective in numbers when attacking enemy defenses. 'Missile Trooper' ( :190 | :40 | :33 | :2 | :5 | :09/09 ) ...is a highly trained advanced human unit with weak armour but high range powerful explosive attack intended to destroy enemy mechanical units and structures.
+
+
+______
+:5> STRUCTURES & UNITS - (b)
+56
+
+- 5b>. all unit info. 'Vendetta' ( :170 | :170 | :23 | :7 | :3 | :03/03 ) ...is an extremely fast and moderately armoured mechanical hovercraft unit that is the cheapest and most quickly produced non-human offensive unit available. 'Maniacal' ( :190 | :190 | :27 | :6 | :4 | :04/04 ) ...is a speedy and sufficiently armoured mechanical hovertank unit that is the most popular choice among tacticians for its overall balance of ability and efficiency. 'Berserk' ( :260 | :120 | :29 | :7 | :5 | :04/02 ) ...is a quick-moving aggressive mechanical hovercraft unit with weak armour but a high powered close-range projectile attack with an impressive rate-of-fire. 'Intimidator' ( :420 | :380 | :39 | :2 | :6 | :06/05 ) ...is the most heavy-duty of all hover units from the Mech Kennel and boasts heavy durable armour with a incredibly strong close-range explosive attack.
+
+
+______
+:5> STRUCTURES & UNITS - (b)
+57
+
+- 5b>. all unit info. 'Ultra Maniacal' ( :270 | :190 | :127 | :8 | :6 | :07/04 ) ...is an advanced customised version of the speedy 'Maniacal' hovertank unit with an extremely rapid close-range machinegun attack, the most fearsome unit for its price. 'Vandal' ( :720 | :220 | :72 | :7 | :6 | :02/01 ) ...is a vicious and rapidly moving light-weight mech designed for close range combat, its narrow design and speed make it a difficult enemy to target.
+
+
+______
+:5> STRUCTURES & UNITS - (b)
+58
+
+- 5b>. all unit info. 'Buster' ( :240 | :240 | :37 | :5 | :5 | :06/06 ) ...is a standard miniature anti-personnel tank unit that is well armoured and has a heavy solid projectile attack that is extremely effective against human units. 'Scather' ( :420 | :360 | :48 | :4 | :7 | :07/09 ) ...is the most common tank used and has an impressive high-range explosive attack intended to nullify typical enemy defenses such as turrets and other tanks. 'Inflicter' ( :480 | :320 | :53 | :4 | :8 | :09/08 ) ...is a much faster and more aggressive design of combat tank with decent armour and a powerful explosive ranged attack that can inflict serious damage. 'Desecrator' ( :640 | :440 | :66 | :4 | :9 | :09/07 ) ...is by far the most advanced tank unit available with great mobility, heavy armour and a superior fatal energy attack as used by the Fatal Turret structure. 'Fatalist' ( :660 | :160 | :66 | :2 | :MAX. | :07/06 ) ...is a very sluggish tank with extremely slow rate of fire and only moderate armour, yet delivers the most powerful damage that can destroy an entire structure.
+
+
+______
+:5> STRUCTURES & UNITS - (b)
+59
+
+- 5b>. all unit info. 'Spy Device' ( :720 | :1 | :72 | :MAX. | :11/00 ) ...is the fastest moving unit and has one of the widest ranges of view distance, although extremely weak and unable to attack, it's an important intelligence tool. 'Hover Mine' ( :660 | :1 | :66 | :1 | :10 | :01/01 ) ...is an extremely slow-moving explosive unit that is near impossible to detect when stationary, although blinks while moving, guarantees to destroy any unit or structure. 'Pulveriser' ( :480 | :320 | :66 | :6 | :10 | :04/01 ) ...is a slow bulky unit capable of extremely massive explosive attacks that deals a radius of damage, best used for attacks on enemy bases then returned for repairs. 'Obliterator' ( :520 | :480 | :79 | :8 | :10 | :09/05 ) ...is considered the ideal offensive unit, combining speed and armour with an impressive explosive attack that deals a radius of damage at a safe distance.
+
+
+______
+:5> STRUCTURES & UNITS - (b)
+60
+
+- 5b>. all unit info. 'Manta' ( :570 | :220 | :72 | :MAX. | :9 | :11/07 ) ...is the only aerial unit and has rapid movement speed and can pass over any terrain, although it has only moderate armour and slow projectiles that can be outrun. 'Mobile HQ' ( :1270 | :120 | :127 | :1 | :05/00 ) ...is the only unit capable of creating a structure and none other than a Base Headquarters, allowing you to expand multiple bases anywhere on a map. 'Energy Orb' ( :2720 | :1 | :172 | :MAX. | :+10 | :01/01 ) ...is a delicate mechanical hovering unit capable of rapidly healing your injured human units over a large radius, improving effectiveness of any human forces. 'Feeder' ( :330 | :240 | :13 | :2 | :2 | :01/01 ) ...is the unit produced by a Processing Plant that is used to collect resource and dump into that structure to refine and process into credits to spend.
+
+
+______
+:5> STRUCTURES & UNITS - (c)
+6l
+
+- 5c>. all structure stats.
+
+
+______
+:5> STRUCTURES & UNITS - (d)
+62
+
+- 5d>. all unit stats.
+
+
+______
+:5> STRUCTURES & UNITS - (e)
+63
+
+- 5e>. the techtree. The Techtree is a hierarchy ruleset that governs which structures and units are currently available for you to purchase and produce, and why. Almost every structure relies on a lesser structure either being already constructed and existing in the base, or the appropriate level of structure reliance already existing in the ruleset. For example, almost every structure relies on a power supply, therefore almost every structure will be unavailable until at least 1 'Power Generator' has been produced and constructed. Without this hierarchy of structures in the Techtree, more advanced structures that rely on them would not be possible and available for purchase.
+
+TECHTREE STRUCTURES TECHTREE UNITS
+
+
+______
+:5> STRUCTURES & UNITS - (e)
+64
+
+- 5e>. the techtree. Units techtree:- Structures techtree:-
+
+
+______
+:6> TACTICS & STRATEGIES
+65
+
+Once familiar with all of the units and structures in the game and how you can produce, construct and control them, it's important to know how combinations of everything available can function together effectively and also be arranged more effectively, especially to fortify a good defense against inevitable enemy attacks. Before considering offensive and defensive measures, however, you first must focus on the essential fundamental structures required for different functions of your base as a collective entirety, including intelligence, resource processing, power generation and unit production. All of these aspects rely on and are related to each other, and thus depend on a set of rules known as the Techtree, with your most important structure residing at the core, your 'Base Headquarters' structure. For base-orientated missions, you will always begin a scenario with a 'Base Headquarters' or a 'Mobile HQ', which is a unit that can construct a new 'Base Headquarters'. Without this structure, no other structures will be available for you to construct in that scenario.
+
+CENTRALISED AND PROTECTED EXPOSED POWER GENERATORS BASE HEADQUARTERS AND BASE HEADQUARTERS
+
+
+______
+:6> TACTICS & STRATEGIES - (a)
+66
+
+- 6a>. building structures & base-layout. In a typical deathmatch scenario you will begin with a 'Base Headquarters' structure and some initial credits. Spending these initial credits wisely is critical because without a 'Processing Plant' structure or 'Feeder' units to harvest and process resources into credits, it's impossible to generate more. You should usually have enough credits to make a mistake or a few but it's vital to begin harvesting your own resources as soon as possible to have credits ready to spend when you need them. According to the Techtree, you will first need to purchase, produce and place a 'Power Generator' in order to then purchase, produce and place a 'Processing Plant' structure. The 'Processing Plant' structure will not be available to build until a 'Power Generator' is present, because one relies on the other. Even though having your 'Power Generator' destroyed will not affect the functionality of the 'Processing Plant' once present in the base, you will be unable to build another 'Processing Plant' without one. Unlike the 'Processing Plant', other structures such as your 'Radar' and both turret structures will cease to function correctly without enough power, and with the exception of a 'Power Generator' or 'Command Centre', almost all structures have power demands. Other structures are considered an extension of lesser structures, such as a 'Tank Complex' to a 'Tactics Station' or a 'Mech Kennel' to a 'Training Station', the higher structures depend on the lesser ones for some shared functionality and base technology. This principle of reliance and interdependency is a factor up throughout the Techtree, so also must be considered when creating the layout of your base from scratch.
+
+
+______
+:6> TACTICS & STRATEGIES - (a)
+67
+
+So in a typical base, we would see a 'Base Headquarters', being the most important structure, located somewhere in the very middle or toward the back of a base if the terrain factors give nice cover, being that enemy units will be unable to navigate there or attack. From the inside out, it's typical to see 'Power Generator' structures placed directly against a 'Base Headquarters', being that neither of these are unit-producing structures. Also directly connected to these may be 'Storage Silos', which are other non unit-producing structures residing low in the Techtree. Beyond this is the essential 'Processing Plant', which technically is a unit-producing structure. Here the approach must be different as you must ensure the 'Feeder' unit that your 'Processing Plant' produces has clear path directly to and from that structure. In other words, if your 'Processing Plant' is completely surrounded by other structures, your 'Feeder' unit will be unable to access it to dump any resource it has collected and you will be forced to relocate those structures by using their 'Destruct' function, reproducing them and placing them back into your base at a more appropriate location. Similar to the 'Processing Plant' in this regard is the 'Maintenance Garage', being that any damaged units need clear access to as well as from that structure, and it cannot be completely surrounded by structures that will obstruct access. The primary unit-producing structures are a little different because units only need clear outgoing access from those structures and never require incoming access to them, however care still needs to be taken to ensure units will not be rallied within an enclosure of structures, or enclosure of structures and terrain, upon production. If these such enclosed vacancies exist, you can use 'Wall Barrier' or 'Dummy Peg' structures to cheaply fill them in and avoid wasting units,
+
+and newly produced units will be rallied to the next nearest available area of the map.
+
+
+______
+:6> TACTICS & STRATEGIES - (a)
+68
+
+Expanding your base with more advanced structures and excessive defenses will usually require you to improvise and every circumstance will be different as the location and type of terrain varies throughout the game. Unless in some urban environment, the appropriate available area to build your base will usually always be a frustrating issue as you must compromise areas and access, not being able to have all of everything with the increasing power and storage demands. Thankfully, if you are able to reach the heights of the Techtree for an advanced base, a 'Command Centre' will eliminate the need for arrays of 'Storage Silo' and 'Power Generator' structures, freeing up available area to build other structures. At this advanced level, your build area should also support multiple unit-producing structures, which results in faster build-times for units. For example, having 2 'Tank Complex' structures present in your base will result in all tank units being produced and ready for battle much faster, which is important, especially when facing an enemy of equal ability. You do not need a 'Command Centre' structure to do this, however, but available area to build will be an issue.
+
+TRAPPED UNITS FREE ACCESS
+
+
+______
+:6> TACTICS & STRATEGIES - (b)
+69
+
+- 6b>. terrain factors. While it sounds easy enough to arrange the layout of an effective and problem-free base, you can't just simply build anything anywhere, especially out in the wastelands and wilderness. Some parts of the terrain are impassable to ground units and other parts even to their projectiles. Even then, the type of terrain suitable for placing concrete foundation on, and thus the structures built upon it, is limited to only surfaces hard enough to support them. This type of terrain is identified by and will be displayed as green tiles on the Playscreen when in the 'Place' structure mode, but unfortunately is not always easy to identify unaided. Obstructions such as rocks and trees among the most ideal of areas available for a base may sometimes ultimately dictate the layout of certain features as you are forced to fit differently proportioned structures as appropriately as possible among the varying terrain. Once again this is an inherent problem of successfully creating a base layout on organic terrain and always requires compromise and improvisation.
+
+
+______
+:6> TACTICS & STRATEGIES - (c)
+70
+
+- 6c>. building & queuing effectively. In the process of actually purchasing units and structures, assigning them to the Build-Queue and having them produced for you, there are some things to know to make this entire process more efficient. Different units and structures can be produced simultaneously if they are of a different class or are constructed using a different structure, and different units and structures require a different amount of time in the Build-Queue and therefore occupying a slot there. As stated in its section (see pg.36) you are able to pause and remove icons in the Build-Queue to rearrange the process and make it as efficient and convenient as possible. Removing an icon from the Build-Queue will instantly refund any credits you have already spent, which may also be a motivating factor. Pausing icons in the Build-Queue will allow the next one to be processed, which is handy if something can be processed much quicker than the other if it's especially needed. Differently classed structures are separated between primary structures which includes fundamental infrastructure and unit-producing structures, and secondary structures such as concrete foundation and defensive structures like walls and turrets. Some primary structures can take a long time to process in the Build-Queue and must occupy a slot there while processing, while most secondary structures are more simple and will be processed quickly. For units, the logic is more simple. If the unit is constructed by a different structure then it is processed separately in the Build-Queue. This should mean that the Build-Queue should typically be occupied with different types of units and structures that will process simultaneously and with maximum efficiency, especially during warfare where you may be required to quickly replace any casualties to sustain an offensive attack, or quickly replace vital structures if your base is under enemy attack.
+
+
+______
+:6> TACTICS & STRATEGIES - (c)
+7l
+
+As a tactician, understanding the concept of how to efficiently manage the Build-Queue and avoid being comfortable processing the same units, which will slow overall production of your base, is absolutely crucial. Your base can always be constructed much quicker, and defensive and offensive forces can always be produced much quicker, if you broaden your choices and constantly balance variations when making your decisions to assign purchases to the Build-Queue.
+
+CLOGGED QUEUE vs EFFICIENT QUEUE
+
+
+______
+:6> TACTICS & STRATEGIES - (d)
+72
+
+- 6d>. tips for successful defensive. A good defense will always involve occupying every area available with an ability to attack related to range in order to create a frontline barrier that is hostile to enemies. Ideally this would consist of both structures and units, but perfect defense always means limited or impossible mobility, and forces difficult to control should they be disrupted by a successful enemy attack, not to mention expensive and time-consuming. Each different unit or structure capable of attacking has a different range, from 'Machinegunner' units that need to be within close proximity of an enemy unit, to 'Sniper' units that can attack from a great distance. So there is very little sense in having your 'Machinegunner' units far away from the enemy and your 'Sniper' units very close. This is also a perfect example of how the rate-of-fire of an attack can often relate to the range of that attack, again reinforcing how inappropriate it is to use those units that way, being that the 'Sniper' has a very low rate-of-fire and is likely to die before even being able to attack, and the 'Machinegunner' is well out of range to be able to attack. A good defense will always see 'Sniper' units much further back from the frontline than 'Machinegunner' units, so that preferably, although not necessarily, their attacks will be capable of targeting the same location. The same principle also applies to structures, with 'Chaingun Turret' structures conventionally being placed on the outward perimeter of a base while 'Missile Turret' structures are typically found closer to the inner core of a base, along with 'Fatal Turret' structures, if the technology is available.
+
+
+______
+:6> TACTICS & STRATEGIES - (d)
+73
+
+An essential function in creating and maintaining this type of defense is the 'Guard' function for units, which will stop a unit at its current location and allow it to be always ready to attack any enemies within its range, and the unit will not move from that location even if attacked. This is important because no unit can attack while moving, and in other modes can be distracted in this way. Putting units on 'Guard' around your base as a defensive measure is vital to make every single attack, no matter how small, as efficient as possible against an oncoming enemy offensive.
+
+
+______
+:6> TACTICS & STRATEGIES - (e)
+74
+
+- 6e>. tips for successful offensive. Sending units out to attack an enemy base is the singlemost common objective you will encounter in the game, in order to weaken an enemy faction and gain an overall advantage in the entire war, by bringing them down in that particular battle and allowing you to have control over that region of the warzone. Every base has a weakness and no defense is perfect, although often discovering and exploiting those weaknesses can prove extremely difficult. There are many things to know before blindly sending in your forces to face a well-established and defended enemy base. First you must know what you're up against before you can know how big a force you require and what type of units that force should consist of. Certain units are better at scouting for intelligence than others, but one is specifically designed for just this purpose, the 'Spy Device', which is, although an expensive unit with little armour and no means of attack, extremely fast with an expansive visibility range. Just 1 'Spy Device' can quickly uncover not only all of your enemy's secrets, but the entire map itself. It's advantage is in its rapid movement, able to outrun most enemy projectiles and likely a great distance away before many enemy units will be able to even turn around to target it. Intelligence is the first step to any offensive because you cannot defeat an enemy you do not understand. Next you must make sure you can keep your forces contained and organised while moving them through the map to the enemy base. You must not risk your forces becoming spread apart with one lazy move command, as this will see your forces arrive at enemy defenses one by one, to be destroyed one by one. You must issue continual and persistent commands in steps within a limited area and only when safe to do so, always keeping your forces tight and organised.
+
+
+______
+:6> TACTICS & STRATEGIES - (e)
+75
+
+Things to consider about an enemy defense is the base's power supply. To interrupt enemy power supply is a devastating tactic because without power, any automated structural defenses like turrets will be inactive and your units can focus firepower elsewhere. It makes a lot more sense to attack the power supply of a base that keeps the turrets active than to focus attack on each individual turret while it's still firing at your units. With any luck, you will face individual 'Power Generator' structures instead of 1 (or more) 'Command Centre' structures, because as you destroy each 'Power Generator' it will gradually affect the overall power supply of the enemy base, making it easier with each 'Power Generator' destroyed, while 'Command Centre' structures are incredibly well-armoured, easily repaired and sustain a constant power supply until the structure is entirely destroyed. With that, 'Command Centre' structures, although the biggest structure available, are easier to conceal and protect behind other less important structures, sometimes meaning that attacking the enemy power supply as your main offensive tactic may not be realistic. Another tactic is to focus your attacks on enemy unit-producing structures. With these out of action, the enemy will be unable to produce units for both offensive and defensive purposes. It's practically impossible for a perfect defense to consist purely of structures, because mobility of units around the base will become impossible. So destroying unit-producing structures will, although temporarily, disrupt the enemy's ability to reinforce their maximum defense, allowing your forces freedom to focus on already present units and turrets without needing to worry about new units being produced to replace ones you have only just destroyed.
+
+
+______
+:6> TACTICS & STRATEGIES - (e)
+76
+
+Like a good defense, understanding your unit's statistics and capabilities and how this relates to their role and placement within an entire force during warfare is also crucial for a good offense. Units with high attack range can be used to weaken certain outward structures of an enemy base from a safe distance, and to lure units away from the base into your waiting forces in order to decrease the numbers of units actively defending the enemy base. This would usually be done, if possible, from an opposing side of the enemy base to lure as many units away before launching a surprise attack from the other side. Once an offensive attack on an enemy base seems successfully under way, brute-force units such as 'Machinegunner' and 'Hover Mine' units can be called in to quickly take down enemy structures while enemy units and turrets are busy engaged in combat. This is the most effective type of offensive tactic and, despite the odds, can penetrate and devastate even the toughest of enemy defenses.
+
+
+______
+:6> TACTICS & STRATEGIES - (f)
+77
+
+- f>. tips for unit-orientated missions. Sometimes maps in certain regions are not suitable to build a base within and can only be navigated throughout and have its objectives fulfilled by using units only. For these scenarios you will begin armed with only units, and neither Icon-Stack on the Infoscreen will be available, making it impossible to build either new structures or new units. These maps usually concern being located deep into enemy territory and have extremely complicated layouts that require keen scouting and navigation skills. For this type of mission it's typical that a preceding mission would have involved neutralising their forces outside of this region to establish infiltration and intelligence, such as your Radar display functioning on the Infoscreen and possibly having certain structures at the initial entry point such as a 'Maintenance Garage' to repair damaged units. Because you cannot produce new units in this type of scenario, they are often more challenging and leave little room for mistakes, so it's important to understand how to arrange your units and assign different units a different role to play. Your initial concern is to establish and sustain a secure area for the majority of your units, and select certain others to scout nearby areas cautiously. It's unwise to move your entire force into unknown areas recklessly without first understanding the possible enemy threats. If your entire force is moved into the line of fire of an overpowering enemy defense, that will often mean unnecessary casualties likely resulting in failure of the mission.
+
+
+______
+:6> TACTICS & STRATEGIES - (f)
+78
+
+Depending on whether you have a 'Maintenance Garage' or 'Medic' present in your initial force for that scenario, you can send in a lesser unit that is quick and easy to repair or heal, preferably with a high range of visibility, to cautiously scout the surrounding areas and neutralise specific threats efficiently with the appropriate offensive units, gradually expanding secure areas throughout the map that assure your forces are safe from any of the enemy's defensive threats. That is not to say enemy forces will not send their units into these established secure areas, however due to the complex layout of the map and with being aware of your force, it's highly unlikely the enemy can produce enough units to overpower you. A typical objective in this type of map is to gain access to information, collect an important object, or to assassinate a particular character. These all involve getting from one part of the map to another, usually in the most difficult way, although often there are multiple paths available and each with a different set of challenges. Sometimes gaining access to these objective locations requires outside help and some obstructions can only be destroyed at a particular time during the mission, meanwhile your limited forces may need to battle oncoming enemy units being produced elsewhere. For these type of complicated scenarios it's absolutely vital to understand how to arrange and command your forces to work together, making all attacks the most effective. It's also important, if possible, to keep all units repaired and healed the moment they require it as new threats can be unpredictable.
+
+
+______
+:6> TACTICS & STRATEGIES - (f)
+79
+
+Should you become lost in the most complicated of layouts deep within enemy factories or complexes, you are either facing a timed objective where you can only gain access to a particular area of a map at a particular time, or the point of access is small and obscure. Scouting techniques involve tracing access along walls and perimeters to discover which parts are accessible or not, which may not always be apparent to you from your viewpoint as their virtual tactician. Sometimes the way through can be a small doorway, venting ducts or behind destructible structures. Although very different from large-scale base-oriented maps outdoors, the intimate skills and techniques applied in these types of scenarios are still relevant to any other scenario you will face throughout the campaigns. Gaining the advantage always requires intelligence, perception and efficiency, not just to improve your performance as a virtual tactician, but to minimise the casualties of those under your command.
+
+
+______
+:7> TECHNICAL - (a)
+80
+
+- 7a>. FAQ. Why can't I place my new structure onto the map? ..."you need to make sure you have built 'concrete foundation' on rock terrain within another structure's range and no obstacles like units are present where you wish to build." Why can't I place concrete foundation onto the map? ..."concrete foundation can only be built on rock terrain and within the build-range of another structure." Why do I see mostly black on the Radar display on the Infoscreen? ..."you either do not have a Radar structure present in your base or have insufficient power supply for it to be active." Why can't I purchase and add any units or structures to the Build-Queue? ..."either you have insufficient credits to purchase new units and structures, the maximum unit and structure supply limits have been reached, or there are no available vacancies in the Build-Queue." Why are none of the objects in the Build-Queue progressing? ..."you have likely run out of sufficient credits to continue production." Why are certain icons not available in the Icon-Stacks? ..."either those particular structures have been destroyed or a structure it relies on according to the Techtree is not present in your base."
+
+
+______
+:7> TECHNICAL - (a)
+8l
+
+Why are certain functions not available on the Action-Bar? ..."these functions are different depending on whether you have selected a unit or structure, and exactly which unit or structure you have selected, with some missing functions or replaced with alternative functions." Why did one of my Hotkeys stop working? ..."the unit or structure selection that was assigned to that Hotkey has been destroyed." Why can't I interact with a certain unit or structure on the Playscreen? ..."it is not a friendly unit or structure that belongs to your faction and therefore is not under your control." Why can't I repair the currently selected structure? ..."you have insufficient credits to perform a repair action on that structure." Why can't I destroy a Wall Barrier, electrical field or other structure in my way? ..."it is likely a timed objective that cannot be destroyed by unit attacks and also cannot be selected." Why can't I seem to damage an enemy structure? ..."like you, the player, the enemy factions also have the ability to repair damaged structures, or the structure is related to a timed objective and cannot be selected." Why do enemy structures reappear after I've destroyed them? ..."like you, the player, the enemy factions also have the ability to purchase, reproduce and place structures on the map."
+
+
+______
+:7> TECHNICAL - (b)
+82
+
+- 7b>. glossary. 'Action Bar' - ...is the bar located at the top of the Playscreen that houses function buttons for units and structures. 'Base' - ...refers to a collection of different structures in a particular location that result in collective functionality. 'Blip' - ...is a small coloured square that composes the Radar display on the Infoscreen which represents the terrain, unit or structure, and of which faction. 'Build-Queue' - ...is the interactive screen on the Infoscreen that displays icons of units and structures purchased and currently in production. 'Campaign' - ...is a series of 9 levels containing many scenarios as related to the Faction it belongs to. 'Credits' - ...result from resources dumped by a Feeder into a Processing Plant and used to purchase and repair structures and units. 'Environment' - ...is the visual theme of the map related to location in the warzone including forest, desert, swamp, volcanic, city and high-tech. 'Faction' - ...is one of multiple military and/or political powers sharing territory within the entire warzone with interest in controlling the neutral middle-territories.
+
+
+______
+:7> TECHNICAL - (b)
+83
+
+'Foundation' - ...refers to the 2 concrete structures 'Single Block' and 'Quad Foundation' necessary to build other primary structures upon. 'Frontline' - ...refers to a sensitive area in a map where an opposing force has created and arranged an organised defensive barrier that is hostile to its enemies. 'Gameinfo' - ...is a collection of helpful screens containing detailed information about Techtree, objectives, units and structures. 'Hotkeys' - ...are the 4 functions to which selection groups can be assigned and easily recalled again by one button. 'Icon' - ...is a rectangular plaque which is a representation of a unit or structure as seen and interacted with via the Icon-Stacks and Build-Queue. 'Icon-Stack' - ...is an interactive stack of icons that appear on both the left and right side panels of the Infoscreen related to the Techtree and which access information screens. 'Infoscreen' - ...is the screen that contains the Radar display, Build-Queue, Hotkeys screen, Descriptions and other information displays. 'Level' - ...is one of the 9 components of a campaign related to a faction that can contain multiple scenarios.
+
+
+______
+:7> TECHNICAL - (b)
+84
+
+'Map' - ...is the actual layout of the terrain in a scenario which also typically relates to the type of scenario and its objectives. 'Middle-Territories' - ...are a group of resource-rich regions in the middle of the entire warzone that are home to innocent third-world neutralities. 'Mission' - ...is the combination of level, region, scenario, map and all objectives required to be fulfilled to progress through the game. 'Neutrality' - ...is a structure or unit not belonging to one of the 3 main warring factions and, especially in later levels, must be protected and not engaged with offensively. 'Objective' - ...is a unique condition of a scenario that is a requirement to achieve in order to successfully complete that mission. 'Objective Beacon' - ...is a non-interactive structure that represents an approximate location of an important objective in that particular scenario. 'Playscreen' - ...is the screen that displays the actual map, Action-Bar, units and structures, and from where tactical commands are issued. 'Queue-Time' - ...is the vastly differing amount of time required to produce a structure or unit resulting in delay and the time it occupies the limited slots in the Build-Queue.
+
+
+______
+:7> TECHNICAL - (b)
+85
+
+'Quick-Help' - ...refers to the 2 small buttons on the Infoscreen that allow access to detailed information about objectives, techtree, gameplay, structures and units. 'Radar' - ...is the interactive main display of the entire map on the Infoscreen showing coloured blips that represent terrain, units and structures. 'Rally' - ...refers to the ability to assign unit-producing structures a point on the map to force newly produced units to automatically gather there. 'Region' - ...is a separated part of the entire warzone that relates to a particular environment and accessible scenario. 'Resource' - ...is the bright high-contrast material seen on maps that is harvested by Feeder units. 'Scenario' - ...is one of often a multiple choice in a level that is represented by a region in the warzone. 'Structure' - ...is a stationary component of a base that appears as an interactive object on the Playscreen that provides functions such as unit production. 'Terrain' - ...refers to the different passable and impassable aspects of a map such as flat rock, mountains, water and lava, and resources.
+
+
+______
+:7> TECHNICAL - (b)
+86
+
+'Techtree' - ...refers to the hierarchy that governs the production dependency of units and structures and how they relate to each other. 'Unit' - ...is a dynamic interactive object on the Playscreen capable of attack, such as a soldier or tank. 'Viewpoint' - ...from where you, the player, are viewing the map and all its elements, units and structures on the Playscreen, relative to the white rectangle on the Infoscreen Radar display. 'Warzone' - ...is the entire set of regions on the continent involving and containing all factions and their campaigns.
+
+
+______
+:7> TECHNICAL - (c)
+87
+
+- 7c>. hardware. Rumble Pak:- To enable the Rumble Pak function, simply insert it into your Slot-2 while your NintendoDS is powered off. When powering on and launching the game, the component will automatically be detected and active. There is no option to control the strength of the component so please use in moderation and be aware that the game will stress and drain your Rumble Pak over time or with excessive usage. Guitar Grip:- To enable the Guitar Grip, simply insert it into your Slot-2 while your NintendoDS is powered off. When powering on and launching the game, the component will automatically be detected and active. The 4 buttons on the component are relative to the 4 additional Hotkeys (see pg.37) in the game.
+
+
+______
+:7> TECHNICAL - (d)
+88
+
+- 7d>. credits & thanks.
+
+powered by:- RTS4DS Engine lead programmer:- Sander Stolk additional code:- Claudio Gabriele Quercia playtesters:- "Aaron", "Teddemans", "elwing", "Gamer4life", "blastermak", "Devil Spawn", "crapshot" SStolk thanks:- "wintermute" "Retrohead" "Takieda" "Strager"
+
+developed by:- Violation Entertainment lead artist:- Lee David Ash additional art:- Bojana Nedeljkovic Daniel Schneider
+
+
+______
+:7> TECHNICAL - (e)
+89
+
+- 7e>. disclaimers & legal.
+
+ULTERIOR WARZONE (c)2013 Violation Entertainment www.violationentertainment.com powered by RTS4DS Engine (c)2013 Sander Stolk
+
+( DEMO v1.0 )
+
+______
+:> NOTES
+
+.
+.
+.
+
+
