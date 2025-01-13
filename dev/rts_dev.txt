@@ -1,0 +1,238 @@
+_________________________
+RTS4DS "game" development
+ ...how to use the engine
+-------------------------
+
+ - INI files.
+"These are really intuitive and don't require much explaining.  Get your favourite text editor and you'll undoubtedly soak up how most of the entire engine works, with the exception of 'scenarios' which really require an editor to handle at their full potential, there is documentation for that below.  The base has straight-forward naming conventions so it's not surprising that projectile scripts are found in the projectiles folder, or a unit's repair cost is found as Cost= value under the [REPAIRING] parent.  With a few exceptions, it's not even worth documenting how things work."
+
+ - Graphics.
+"You will be dealing with paletted 8-bit PCX and GIF files.  GIFs are used for animations and many other things, including many static screens and even elements of other screens, but their production isn't extraordinary.  The GIFs certainly always have their own palette to use and are not external.  PCX files need to be compiled into BIN (binary) files and use external palettes, and this can be tricky and isn't well documented.  Much of how images are matched to palettes is all in the filenames, although exactly how the commandline is used can vary.  Shared palettes were done by deriving a montage of all units or all environment tiles, etc, and compiling that palette in its own process from 1 example and put into the base intentionally.  Although palettes are always compiled in the commandline, you still decide what lives in the base and many will need manual renaming with care.  Once that palette (as a PAL file) is applied to the graphics, before compiling, correct compiling, and everything is in order, then everything will match nicely.  For this project, almost everything used error-diffused degrade to 8bit, with a few UI elements mixing in as closest-match.  Music like audio, these days it's worth researching newer techniques for 8bit production as there are more worthwhile options now.
+The commandline tool is "gfx2gba" which operates on your PCX files.  A tool "byteswap" was definitely used earlier in development, but to the best of my knowledge I don't think you'll need that anymore.  The best thing we can do now is look at some examples from the BAT file archive:-
+gfx2gba.exe [INPUT].pcx [OUTPUT].bin -8 -w 16 -z 256 -b -p [PALETTE].bin
+gfx2gba.exe [INPUT].pcx [OUTPUT].bin -8 -w 256 -b -p [PALETTE].bin
+gfx2gba.exe [INPUT].pcx [OUTPUT].bin -8 -w 16 -b -p [PALETTE].bin
+"gfx2gba --help" command is your friend, see gfx2gba.txt.  The first 2 flags are bits (always 8) and width, from 8 to 256.  The Z flag, followed by a height value, is needed for compound sheet graphics with shared palettes, and is not to be used for things like menus.  The B flag is binary and always used, and P is for palette.  Things will likely take some troubleshooting and trying different palettes, but if one combination doesn't work then another certainly will.  I can only apologise for not remembering exactly how this worked and unfortunately online documentation can be obscure and scarce, as its use can change between different projects.  It's not possible to reverse this process for any answers, as it would require the known palette anyway, which would have been the best solution.
+The main shared palettes used by units, structures, environments and many other pieces, are as follows:-
+ingameInfoscreen, ingameInfoscreenBGs, ingameInfoscreenSprites, ingamePlayscreenSprites, ingamePlayscreenBGs
+These are suffixed by faction names and automatically used where appropriate, and paletted as such.
+Finally, there are some fancy images that are used as interactive elements on the touchscreen called "pieces".  These function by assigning a palette index to a function, a choice the engine can make to, for example, choose a faction or a region.  Although they use an image's palette to function, they don't actually need a palette themselves.  These are few and they are otherwise just images, but important.  Be sure to keep them very dark because I recall they are not completely invisible.
+All of that said, you are on your own with exactly how to produce all graphics for the engine, but the source code, the collection of BAT files that were used, and trial and error game development - if I could do it, you will eventually figure out."
+
+ - Audio.
+"Old school 8bit 11KHz WAV files for everything, with a supposed limit of about 4 seconds for dialogue segments, and generally less than 2 seconds for in-game effects.  Music uses Amiga MOD tracker files, 4 channels and 8bit 11KHz samples, and filesize limit of 98KB.  The largest MOD file in the base will likely tell you the exact limit the engine will have the memory for to the byte.  OpenMPT is the software used to create these music files and will open MOD files directly, to examine and manipulate.  Scenario files control which music tracks are played and almost every other INI in the base has assignments for exact audio to be used, including the in-game dialogue sequences and an environment's ambient sounds."
+
+ - Regions & Levels.
+"It's worth quickly mentioning, these can require careful planning as the game progresses, multiple scenario choices can become available, and aspects like the techtree of both players and opponents is expanded throughout a campaign.  The regions are indexed by palette and these indexes are assigned by level in the level INIs, while the scenario INIs assign levels to techtrees, and these require coordination to make sense and get the most out of.  Any RTS fan should find this manageable and string an entire experience together."
+
+ - Scenarios.
+"The most complex and powerful files.  If you have a functional NintendoDS and flashcart, you are in luck, the engine has a Scenario Editor (SE) that is used to create "maps" (.MAP files) and "scenario" INI files.  Although these are just text files, they can grow unweildy without such a dedicated editing tool.  Unforunately, no emulator can save these files even if the "SE" can run, although one programmer told me this could be possible.  Real hardware was used for everything in the base with some degree of housekeeping and enhancement on the PC side afterwards.  Scenario files were ground zero for most of later development of the engine's evolution, allowing for them to not only be used for war but also storytelling and some variety of gameplay.  Combinations of scenario tricks can be used for things like communication between characters, hero units, specific objectives, timed missions, assassinations, rescue missions, lock & key, enemy-allies, theatrics and more customised calculated attacks and battles.  Used wisely, scenarios can absolutely have meaning, tell a story and provide the player with a unique experience throughout a campaign.
+Here is the original scenario-guide in its final state:-
+____________________________
+
+[CUTSCENES]
+Briefing=(.gif)
+Lose=(.gif)
+Win=(.gif)
+____________________________
+
+[MEDALS]
+Type=Time,Kills
+Gold=TimeInSeconds,NumberOfKills
+Silver=TimeInSeconds,NumberOfKills
+=(how to award medals for winning the scenario)
+____________________________
+
+[MAP]
+Map=###
+Width=32/64/128
+Height=32/64/128
+OreMultiplier=2/3/4/...
+(=force Ore/Orehill to last longer)
+____________________________
+
+[RADAR]
+Enabled=0/1
+Cleared#=Xpos,Ypos,Expanse
+=(clears and activates the radar display without needing a powered Radar structure)
+____________________________
+
+[GRAPHICS]
+Environment=
+Overlay=
+Structures=
+Shroud=
+____________________________
+
+[MUSIC]
+Play=##,##,##,##,##...
+(-or-)
+DontPlay=##,##,##,##,##...
+=(more control over what music plays in the scenario)
+____________________________
+
+[TIMERS]
+
+BG1-60=###, NameOfSound/Ani=NameOfAni[, ###]
+=(background low-priority sound to play (not affected by game-speed))
+(#timer #repeat)
+
+Game1-30=###, NameOfSound/Ani=NameOfAni[, ###]
+=(high-priority timed mission sound to play)
+(#timer #repeat)
+
+StructureKill1-2=###,Any/Friendly/Enemy/Enemy#,Any/NameOfStructure[, NameOfSound/Ani=NameOfAni]
+=(kills a house-specific structure at a certain time)
+
+UnitKill1-2=###,Any/Friendly/Enemy/Enemy#,Any/NameOfUnit[, NameOfSound/Ani=NameOfAni]
+=(kills a house-specific unit at a certain time)
+
+ViewCoord1-6=###,Xpos,Ypos,###[, NameOfSound/Ani=NameOfAni]
+=(focus and temporarily lock playscreen coordinates at a certain time)
+(#timer #hold)
+____________________________
+
+[OBJECTIVES]
+// if none below activated, assumed "wipe out".
+(non-Opts always before Opts unless no non-Opts exist, then add none)
+
+StructureNeed1-3=NameOfStructure/Any/None[, NameOfSound/Ani=NameOfAni]
+=(if all these Friendly structures are destroyed, you lose)
+(+ Opt.*)
+
+StructureKill1-3=NameOfStructure/Any/None[, NameOfSound/Ani=NameOfAni]
+=(if all these Enemy structures are destroyed, you win if all other win-conditions are satisfied as well)
+(+ Opt.*)
+
+UnitNeed1-3=NameOfUnit/Any/None[, NameOfSound/Ani=NameOfAni]
+=(if all these Friendly units are destroyed, you lose)
+(+ Opt.*)
+
+UnitKill1-3=NameOfUnit/Any/None[, NameOfSound/Ani=NameOfAni]
+=(if all these Enemy units are destroyed, you win if all other win-conditions are satisfied as well)
+(+ Opt.*)
+
+StructureTo1-6=NameOfStructure/Any/None,Xmin#,Ymin#,Xmax#,Ymax#[, NameOfSound/Ani=NameOfAni]
+=(if a Friendly structure is placed within the min/max range, you win if all other win-conditions are satisfied as well)
+(+ Opt.*)
+
+UnitTo1-6=NameOfUnit/Any/None,Xmin#,Ymin#,Xmax#,Ymax#[, NameOfSound/Ani=NameOfAni]
+=(if a Friendly unit is placed within the min/max range, you win if all other win-conditions are satisfied as well)
+(+ Opt.*)
+
+Collectible#=Xloction,Ylocation,#credits[, NameOfSound/Ani=NameOfAni]
+=(if a Friendly unit is placed within the min/max range, you win if all other win-conditions are satisfied as well)
+(+ Opt.*)
+
+Resources1-2=####[, NameOfSound/Ani=NameOfAni]
+=(if this amount of credits is earned, you win if all other win-conditions are satisfied as well. the Resources conditions is only marked as "satisfied" if it is the last remaining one which still needs to be satisfied)
+(+ Opt.*)
+
+KillAll=WinWAV,LoseWAV
+=(WAV files to play on win or lose wipe-out condition)
+____________________________
+
+[FRIENDLY/ENEMY#]
+Faction=Faction
+
+TechLevel=#
+=(maximum technology level if not in techtree it finds the first < highest level it comes across)
+
+RepairSpeed=5,10,20,25,33,50
+=((optional) percentage of maximum structure repair speeds)(only for [ENEMY])
+
+Credits=#####
+=(credits to begin with the maximum is 99999, and this now directly affects enemy AI)
+
+MaxUnit=50
+=(maximum number of units is 150 but must be distributed (50 v 50 v 50 / 75 v 75))
+
+RebuildDelayUnits=n/a,#
+=(n/a for infinite delay (won't rebuild), otherwise a number with zero being no delay)(only for [ENEMY])
+
+RebuildDelayStructures=n/a,#
+=(n/a for infinite delay (won't rebuild), otherwise a number with zero being no delay)(only for [ENEMY])
+
+ForceNeutrality
+=(exclude from wipe-out condition)
+
+UnitBuildSpeed=###%
+=(percentage for (enemy only) unit production, 1%-999%)
+____________________________
+
+[TEAMS]
+Friendly/Enemy#,Normal/Kamikaze,Foot/Wheeled/Tracked,Min1-30,Max1-30,Rally:Xpos,Ypos
+=(the min/max teams the enemy AI uses to attack you, both maximum of 30)/(up to 10 teams with 10 different rally points)
+=(Normal - will attack structures but when attacked, returns fire instead)
+=(Kamikaze - will attack structures, never changing its target even when being fired upon)
+Enemy#,InitialPause,#
+=(game-timer to wait building teams by this enemy at the start of a level)
+Enemy#,Pause,#
+=(game-timer to wait between building teams by this enemy)
+____________________________
+
+[UNITS]
+Friendly,NameOfUnit,Health,Xpos,Ypos,Angle,Guard/Reinforcement/Nothing,#timer,#X,#Y
+Enemy#,NameOfUnit,Health,Xpos,Ypos,Angle,Guard/Guard Area/Ambush/Kamikaze/Hunt[,#timer]/Attack,#X,#Y/Patrol/Nothing
+(if health -1 the unit will be invincible/unselectable)
+
+=(Guard - will stand guard at position until an enemy comes within shooting range or if it's fired upon) (bG)
+=(Guard Area - will chase enemy when within -visual- range, returns if it strays too far from its position) (bO)
+=(Ambush - will stand guard at position and hunt down enemy if within visual range) (bA)
+=(Kamikaze - will approach and attack priority opponent structures without returning fire when being fired upon) (bK)
+=(Hunt,#t - will wait until # timer and then go to normal attack mode as if built) (if 0 then instant) (bH)
+=(Reinforcement,#t,#X,#Y - essentially (off-map) Hunt behaviour for Friendly units, with timer and target location values.) (empty)
+=(Attack,#X,#Y - force Enemy units to "stop & shoot" at a target location and resume normal behaviour when the target is destoyed.) (empty)
+=(Patrol, - will automatically patrol area with other behaviour of bG) (empty)
+=(Nothing, - will sit and do nothing, cannot attack, cannot move) (N)
+____________________________
+
+[STRUCTURES]
+Friendly/Enemy#,NameOfStructure,Health,Xpos,Ypos
+(if health -1 the structure will be invincible/unselectable)
+____________________________
+
+[OVERLAY]
+NameOfOverlay,Xpos,Ypos
+____________________________
+.
+.
+.
+
+The tricks:-
+=============
+
+- Off-map Spawning:-
+Enemy#,NameOfUnit,Health,x63,y63,Hunt,#
+=(if the unit is placed on the very edge of the map it will not be visible/vulnerable until the Hunt timer is up) (can support multiple on one tile if different timing)
+
+- Kill-everything Nuke-alternative:-
+[TIMER]StructureKill1=###,Friendly,Any
+[TIMER]UnitKill1=###,Friendly,Any
+=(kills everything of the friendly house to force the mission to fail at a certain time, unless win before)
+
+- Make-it-out Survival:-
+UnitTo1=Friendly1,Any,1,1,64,6
+[TIMER]StructureKill1=800,Electricity,Enemy1
+=(can only win the level by "UnitTo" but can't do that until "StructureKill" (obstruction) for survival missions)
+
+- Survival:
+StructureKill1=Electricity
+[TIMER]StructureKill1=800,Enemy,Electricity
+=(win if we're still alive after 800 seconds (at normal speed))
+=(make sure the enemy's Electricity structures are unreachable and unviewable by any unit, making sure the player won't ever notice its presence and our use of it)
+.
+.
+. 
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
