@@ -1,6 +1,6 @@
 # UW
 ## Ulterior Warzone (content)
-###futuristic real-time strategy game for the NintendoDS
+#futuristic real-time strategy game for the NintendoDS
 (demo 'skirmish' release - 24 combat scenarios)   
       powered by the RTS4DS Engine   
 	  developed by Violation Entertainment
