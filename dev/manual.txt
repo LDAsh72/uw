@@ -7,7 +7,7 @@ instruction manual
 
 
 ______
-( DEMO v1.0 )
+( DEMO v0.9 )
 
 ______
 l
