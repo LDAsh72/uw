@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------------------------
+|tile:|Chasmcustom	|Chasmcustom2	|Rockcustom		|Rockcustom2	|Sandcustom		|
+|-----------------------------------------------------------------------------------------------|
+|01-	|Normal	D	|Anim		D	|Blood1	D	|Anim		D	|Blood1	D	|
+|02-	|Normal	D	|/			|Blood2	D	|/		 	|Blood2	D	|
+|03-	|\			|Anim		D	|Normal	D	|\			|Normal	D	|
+|04-	||-Big	DD	|/			|Normal	D	||4x tile	DD	|Normal	D	|
+|05-	||-Custom	DD	|Anim		D	|Normal	D	||Custom	DD	|Normal	D	|
+|06-	|/			|/			|Normal	D	|/			|Normal	D	|
+|07-	|\			|Normal	D	|\			|\2x tile	DD	|\			|
+|08-	||			|Normal	D	|4x tile	DD	|/Custom		||-4x tile	DD	|
+|09-	||-Bigger	DDD	|Normal	D	|Custom	DD	|Normal	D	||-Custom	DD	|
+|10-	||-Custom	DDD	|Normal	D	|/			|Normal	D	|/			|
+|11-	||			|Normal	D+	|Normal	D+	|\			|Normal	D	|
+|12-	|/			|Normal	D+	|Normal	D+	||-4x tile	DD	|Normal	D	|
+|13-	|- ^ anim		|2x tile	D	|Normal	D	||-Custom	DD	|Normal	D	|
+|14-	|Normal	D	|custom	D	|Different	D	|/			|Different	D	|
+|15-	|\_2x tile	DD	|2x tile		|Different	D	|Anim		D	|Different	D	|
+|16-	|/ Custom		|custom	DD	|Different	D	|/		 	|Different	D	|
+-------------------------------------------------------------------------------------------------
+Chasmcustom: Sand - Rockcustom2: Rock 1-8,Sand 9-16 - Chasmcustom2: 1S,3S,5R,7-9S,10-12R,13S,15R
+Chasmcustom2: 7&8:Fat.Cnr - 11:H.wall - 12:V.wall 
+Rockcustom: 11&12:pathway (like "wall" in Chasmcustom2) - 13:its corner
+-------------------------------------------------------------------------------------------------
