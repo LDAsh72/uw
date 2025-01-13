@@ -1,0 +1,33 @@
+gfx2gba (v1.03, Nov 28 2001) - www.gbacode.net
+
+Usage: gfx2gba infile outfile [-15]|[-8] [-v] [-w n] [-s n] [-n name]
+                              [-c] [-t type] [-r]|[-o] [-k] [-z n]
+                              [-q type] [-b] [-p file] [-m]
+Where:
+    -15      15 bit, convert to 15 bit BGR format, default
+    -8       8 bit, convert to 8 bit format
+    -v       verbose
+    -w n     width, number of entries of data array per line, default = 8
+    -s n     size, size in bytes of each entry, must be 1, 2 or 4, default = 1
+    -n name  name, C variable name
+    -c       C types, use standard C types instead of common GBA types
+    -t type  type, type of data array, default depends on the following:
+                 -s 1   => u8;   with -c => unsigned char
+                 -s 2   => u16;  with -c => unsigned short int
+                 -s 4   => u32;  with -c => unsigned int
+    -r       RGB cube, create standardized RGB cube 8 bit palette, default
+    -o       optimal, create optimal 8 bit palette
+    -k       no const, do not use the const modifier for type of data array
+    -z n     sprite, output in GBA sprite/tile format
+                 -z 256 => 256 colors x 1 palette, default
+    -q type  quantizer, specify quantizer to create optimal 8 bit palette
+                 -q wu  => Wu's quantizer, default
+                 -q nn  => neural net quantizer
+    -b       binary, write image data out to a binary file
+    -p file  palette, write palette data out to a binary file
+    -m       merge, merge palette data, use with -p option
+    -h       help, displays this message
+
+  FreeImage image library (v2.4.2)
+  FreeImage is an open source image library supporting all common
+  bitmap formats. See http://www.6ixsoft.com for more details.
